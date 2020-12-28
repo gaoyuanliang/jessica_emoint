@@ -13,6 +13,12 @@ view the dashboard at: http://0.0.0.0:7765/app/kibana#/dashboard/6b8c0960-3c4d-1
 
 <img src="screencapture-0-0-0-0-7765-app-kibana-2020-12-21-18_25_07.png" width="1200">
 
+## deep emotion tagger
+
+### traning 
+
+<img src="WX20201228-230855.png" width="1000">
+
 ## reference 
 
 https://keras.io/examples/nlp/text_classification_from_scratch/
