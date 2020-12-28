@@ -51,6 +51,7 @@ def train_tagger(texts,
 	tags,
 	tagger_model_path,
 	epochs = 100,
+	validation_split=0.1,
 	):
 	tagger_model = emotion_tagger_model_building()
 	'''
