@@ -5,6 +5,8 @@ from tensorflow import keras
 from tensorflow.keras import layers
 from tensorflow.keras.utils import *
 
+from jessica_deep_emotion_sensor import texts_to_input
+
 fear_tagger = keras.models.load_model('fear_tagger.h5')
 sadness_tagger = keras.models.load_model('sadness_tagger.h5')
 joy_tagger = keras.models.load_model('joy_tagger.h5')

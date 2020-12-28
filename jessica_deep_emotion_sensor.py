@@ -1,4 +1,4 @@
-##########jessica_emoins_deep_learning.py##########
+##########jessica_deep_emotion_sensor.py##########
 
 import numpy as np
 import tensorflow as tf
@@ -67,7 +67,7 @@ def train_tagger(texts,
 	'''
 	y = np.array(tags)
 	y = to_categorical(y)
-	print(len(x), len(y))
+	print(x.shape, y.shape)
 	# Fit the model using the train and test datasets.
 	tagger_model.fit(x, y, 
 		validation_split=0.1, 
@@ -76,4 +76,4 @@ def train_tagger(texts,
 		save_format='h5')
 	return tagger_model
 
-##########jessica_emoins_deep_learning.py##########
+##########jessica_deep_emotion_sensor.py##########
