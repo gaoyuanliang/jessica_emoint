@@ -1,5 +1,4 @@
 ##########jessica_deep_emotion_sensor.py##########
-
 import os
 import keras
 import numpy
@@ -9,7 +8,6 @@ import tensorflow
 from keras import *
 from keras.utils import *
 from keras.models import *
-from tensorflow import set_random_seed
 
 '''
 https://stackoverflow.com/questions/46119435/keras-lstm-why-different-results-with-same-model-same-weights
